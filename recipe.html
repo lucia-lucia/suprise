@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cucumber Salad Recipe!!</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+  <style>
+    .title-font { font-family: 'Inter', sans-serif; }
+  </style>
+
+  
+  <style>
+    .rainbow-text {
+    background: linear-gradient(
+        90deg,
+        #ff4d6d,
+        #ff8fa3,
+        #ffd166,
+        #80ed99,
+        #56cfe1,
+        #b388ff,
+        #ff4d6d
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-move 6s linear infinite;
+    }
+
+    @keyframes rainbow-move {
+    from { background-position: 0% 50%; }
+    to { background-position: 300% 50%; }
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-gradient-to-b from-purple-50 via-violet-100 to-white text-slate-800">
+  <main class="mx-auto max-w-4xl px-4 py-10">
+    <!-- Header -->
+    <header class="text-center">
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight rainbow-text title-font">
+        The BEST cucumber salad recipe eva
+      </h1>
+
+      <p class="mt-3 text-slate-600">
+        Made for <span class="font-semibold">Jasmine</span>! By <span class="font-semibold">luskibdi</span>.
+      </p>
+
+      <a href="index.html" class="inline-block mt-4 text-purple-700 underline underline-offset-4">
+        ← back to og page
+      </a>
+    </header>
+
+    <!-- Recipe card -->
+    <section class="mt-8 bg-white/85 backdrop-blur border border-violet-100 rounded-3xl shadow-sm overflow-hidden">
+      <div class="p-6 sm:p-10">
+        <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h2 class="text-2xl font-extrabold">Cucumber Salad </h2>
+            <p class="mt-1 text-slate-600">Lucias Special Sauce turned into numbers</p>
+          </div>
+
+          <div class="inline-flex items-center rounded-full bg-violet-50 border border-violet-100 px-4 py-2 text-sm font-semibold text-violet-800 w-fit">
+            Ready in: <span class="ml-2 text-slate-800">15–20 min</span>
+          </div>
+        </div>
+
+        <div class="mt-8 grid gap-8 lg:grid-cols-3">
+          <!-- Ingredients -->
+          <div class="lg:col-span-1">
+            <h3 class="text-lg font-extrabold">Ingredients</h3>
+            <ul class="mt-3 list-disc pl-6 space-y-2 text-slate-700">
+              <li>2 mini cucumbers</li>
+              <li>1/2 tsp salt</li>
+              <li>6 tbsp rice vinegar </li>
+              <li>4 tbsp soy sauce</li>
+              <li>3 tsp sesame oil</li>
+              <li>5 tbsp black vinegar</li>
+              <li>3-4 tsp chili oil (can vary with spice want)</li>
+              <li>2 tsp sugar </li>
+              
+    
+            </ul>
+
+            <div class="mt-6 rounded-2xl bg-violet-50 border border-violet-100 p-4 text-sm text-violet-900">
+              <span class="font-bold">Instacart Includes:</span> cucumbers, rice vinegar, black vineagar, chili oil, sugar
+              (i assumed you had salt and soy sauce)
+            </div>
+          </div>
+
+          <!-- Steps -->
+          <div class="lg:col-span-2">
+            <h3 class="text-lg font-extrabold">Steps</h3>
+            <ol class="mt-3 list-decimal pl-6 space-y-3 text-slate-700">
+              <li>
+                Slice cucumbers! (thinner is better)
+              </li>
+              <li>
+                In a tupperware, mix dressing: <span class="font-semibold">rice vinegar + black vinegar + soy sauce + sesame oil </span>
+                +chili oil 
+              </li>
+              <li>
+                Toss cucumbers in dressing until well coated and super yummy
+              </li>
+             
+              <li>
+                Optional: let it soak 10 minutes to soak up the flavor
+              </li>
+            </ol>
+
+            <div class="mt-8 grid gap-4 sm:grid-cols-2">
+              <div class="rounded-2xl border border-violet-100 p-4">
+                <p class="text-sm text-slate-500">Serving ideas</p>
+                <p class="mt-1 font-semibold">Our favorites: scallion pancakes, buldak, or tomato soup</p>
+              </div>
+              <div class="rounded-2xl border border-violet-100 p-4">
+                <p class="text-sm text-slate-500">Warning</p>
+                <p class="mt-1 font-semibold">I tried my best to reverse engineer, if it sucks ill try again</p>
+              </div>
+            </div>
+
+            <!-- Little love note -->
+            <div class="mt-8 rounded-2xl bg-white border border-violet-100 p-5">
+              <p class="text-slate-700">
+                <span class="font-bold">Note for you:</span> Hope you enjoy the recipe! I love and miss you very much. This is my way of trying 
+                to do something cool from miles away. Enjoy your weekend!
+              </p>
+              <p class="mt-3 text-sm text-slate-500">
+                Love, Lucia
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="px-6 sm:px-10 py-5 bg-violet-50 border-t border-violet-100 text-sm text-slate-600">
+        If you want, I’ll make this with you on a call!
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

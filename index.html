@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Da Coolest Website Ever</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;800&display=swap" rel="stylesheet">
+  <style>
+    .title-font { font-family: 'Inter', sans-serif; }
+  </style>
+
+  <style>
+    .rainbow-text {
+    background: linear-gradient(
+        90deg,
+        #ff4d6d,
+        #ff8fa3,
+        #ffd166,
+        #80ed99,
+        #56cfe1,
+        #b388ff,
+        #ff4d6d
+    );
+    background-size: 300% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-move 6s linear infinite;
+    }
+
+    @keyframes rainbow-move {
+    from { background-position: 0% 50%; }
+    to { background-position: 300% 50%; }
+    }
+  </style>
+  <style>
+    .comic-btn {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    }
+  </style>
+
+
+
+</head>
+<body class="min-h-screen bg-gradient-to-b from-purple-50 via-violet-100 to-white text-slate-800">
+
+  <main class="mx-auto max-w-5xl px-4 py-10">
+    <!-- Header + mini description -->
+    <header class="text-center">
+      <h1 class="title-font rainbow-text text-5xl font-bold tracking-tight">
+        Happy (early) Valentines Day Jasmine :p
+      </h1>
+
+      <div class="mt-5 max-w-2xl mx-auto bg-white/80 backdrop-blur border border-rose-100 shadow-sm rounded-2xl p-5">
+        <p class="text-lg text-slate-700">
+          I made a mini website isnt this awesome! <br />
+          <span class="italic">there is a delivery coming from 6 to 8 with additional suprises</span> 
+        </p>
+      </div>
+    </header>
+
+    <!-- Photo surround + center button -->
+    <section class="mt-10">
+      <div class="mx-auto max-w-4xl grid grid-cols-3 gap-3 sm:gap-4 items-center">
+        <!-- Top row -->
+        <img src="IMG_1580.JPEG" alt="Us 1" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+        <img src="IMG_1869.JPEG" alt="Us 2" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+        <img src="IMG_1985.JPEG" alt="Us 3" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+
+        <!-- Middle row: left image -->
+        <img src="IMG_2070.JPEG" alt="Us 4" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+
+        <!-- Middle row: center button -->
+        <a href="recipe.html"
+           class="group text-center comic-btn bg-rose-600 text-white font-extrabold tracking-tight rounded-3xl shadow-sm hover:shadow-lg hover:bg-rose-700 transition px-4 py-10 sm:py-14" style="background-color:#6B21A8;">
+          <div class="text-2xl sm:text-3xl leading-tight">
+            Get your <br/>special gift
+          </div>
+          <div class="mt-3 text-sm font-semibold text-purple-100 group-hover:text-white transition">
+            some pics are hints!
+          </div>
+        </a>
+
+        <!-- Middle row: right image -->
+        <img src="IMG_6240.JPEG" alt="Us 5" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+
+        <!-- Bottom row -->
+        <img src="IMG_2402.JPEG" alt="Us 6" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+        <img src="IMG_3590.JPEG" alt="Us 7" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+        <img src="IMG_9773.JPEG" alt="Us 8" class="aspect-square w-full object-cover rounded-2xl shadow hover:scale-[1.02] transition" />
+      </div>
+
+    </section>
+
+    <footer class="mt-12 text-center text-xs text-slate-400">
+      Made by Lucia Thompson 
+    </footer>
+  </main>
+</body>
+</html>
